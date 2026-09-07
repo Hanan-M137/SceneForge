@@ -1,25 +1,24 @@
 # SceneForge
 
-project for Fundamentals of Computer Graphics (240212100).
+ Fundamentals of Computer Graphics project .
 
-One p5.js program with 5 modules. Everything in it (shapes, colours, depth) is
-generated from a single number: the last 4 digits of the student ID.
+One p5.js program with 5 modules Everything in it (shapes, colours, depth) is
+generated from a single number the last 4 digits of the student ID.
 
 #The Seed
 seed = 6455
 
 Three values are derived from it:
-- `n = 15` → number of shapes
-- `p = 6` → palette size (number of colours)
-- `d = 6` → Sierpinski recursion depth
+-n = 15 → number of shapes
+- p = 6 → palette size (number of colours)
+- d = 6 → Sierpinski recursion depth
 
 #How to Run
-1. Open the project in the [p5.js Web Editor](https://editor.p5js.org)
+1.Open the project in the [p5.js Web Editor](https://editor.p5js.org)
 2. Press ▶ to run
 3. Use the keyboard to navigate:
 
 | Key | Action |
-|---|---|
 | `0` | Back to the main menu |
 | `1` | Module 1 - Draw the scene |
 | `2` | Module 2 - Sierpinski gasket |
